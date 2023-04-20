@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "series",
+  "info": {
+    "singularName": "serie",
+    "pluralName": "series",
+    "displayName": "serie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "work": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work"
+    },
+    "title": {
+      "type": "string"
+    },
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work",
+      "mappedBy": "series"
+    }
+  }
+}

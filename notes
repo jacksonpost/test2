@@ -1,0 +1,30 @@
+api token (test):
+
+8d3dce45ce40a514e021c3dca761d136304193b18f9286c331087cd2cb69831bc5f37ace1bf9a74e771516d88b53ce79fa36e1994d3e0b0a252fe4df234af1e5345ffae4d50223906380323a505a4bb691eacdf150adfd0838ea81baef7dae2f1de440f10501e77c0899eb5e1cd7eb4d9bef8bc84b891dabef11891f2d455798
+
+See content in action by making an HTTP request:
+To this URL: https://<YOUR_DOMAIN>/api/<YOUR_CT>
+With the header: Authorization: bearer <YOUR_API_TOKEN>
+
+
+
+--
+
+
+https://strapi.io/blog/building-a-css-tricks-website-clone-with-strapi-next-js
+
+
+--
+
+Running Jarryd's with node 16.18.0
+
+Pa55word
+
+Repo missing:
+Content in DB
+.env authentication values
+
+Had to add permissions for unauthenticated users
+
+If img is required to display articles on the frontend, make it compulsory in the add recipe stage
+Article item page seems broken: type error, Cannot read properties of undefined (reading 'image')
